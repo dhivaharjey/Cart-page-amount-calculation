@@ -26,7 +26,7 @@ function Cart() {
           </div>
           <div className="container d-flex justify-content-around">
             <div>Cart Total Amount :</div>
-            <div className="text-danger"> &#8377;{totalPrice}</div>
+            <div className="text-danger "> &#8377;{totalPrice}</div>
           </div>
         </div>
       </div>

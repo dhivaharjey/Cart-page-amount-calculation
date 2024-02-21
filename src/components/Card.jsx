@@ -90,13 +90,17 @@ const Card = ({ item, handleRemove }) => {
               <div className=" text-end border-top  py-2 border-5">
                 <div className="card-text text-dark fw-bold fs-4 fst-italic d-flex justify-content-between">
                   <div>Price: </div>
-                  <div>&#8377;{item.price}</div>
+                  <div className="  text-danger-emphasis">
+                    &#8377;{item.price}
+                  </div>
                 </div>
               </div>
               <div className=" text-end pt-2 border-bottom py-2 border-5">
                 <div className="card-text text-dark fw-semibold fs-3 fst-italic d-flex justify-content-between">
                   <div>Sub Total :</div>
-                  <div>&#8377;{item.price * (item.quantity || 1)}</div>
+                  <div className=" text-danger-emphasis">
+                    &#8377;{item.price * (item.quantity || 1)}
+                  </div>
                 </div>
               </div>
             </div>
