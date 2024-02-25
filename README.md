@@ -10,6 +10,11 @@
 - The **Sub total** amount will be updated respective quantity of the product.
 - You can also **Remove** the product from cart using **Remove from cart** button.
 - If you **Increase** or **Decrease** the product quantity the _Cart Total Quantity_ and _Cart Total Amount_ will update.
+
+---
+
+## React Vite
+
 - Step 1: Create a new Vite project
   To create a new Vite project, open your terminal and run the following command:
 
@@ -23,8 +28,6 @@
 - Don’t forget to replace your-project-name with the actual name you chose for your project (unless of course, you want to keep this name for your project).
 
 ---
-
-## React Vite
 
 - Step 3: Install dependencies and run the development server
   Next, install the necessary dependencies and start the development server:
